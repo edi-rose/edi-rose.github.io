@@ -1,8 +1,10 @@
 Head {
   background-image: url(https://ib1.hulu.com/show_key_art/22881?size=1600x600&region=US);
+  background-image: image(https://ib1.hulu.com/show_key_art/22881?size=1600x600&region=US);
 }
 Body {
   background-image: url(http://images6.fanpop.com/image/photos/39500000/rick-and-morty-adult-swim-minimalism-black-funny-cartoons-1920x1080-rick-and-morty-39568275-1920-1080.jpg);
+  background-image: image(http://images6.fanpop.com/image/photos/39500000/rick-and-morty-adult-swim-minimalism-black-funny-cartoons-1920x1080-rick-and-morty-39568275-1920-1080.jpg);
 }
 li {
   font-size: 25px;
