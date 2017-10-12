@@ -9,10 +9,12 @@ h3 {
   font-size: 55px;
 }
 .front {
+  margin-right: %;
   background-color: salmon;
   color: green;
-  text-align: center;
+  text-align: right;
   font-size: 35px;
+  width: 30%;
 }
 body {
   background-color: salmon;
@@ -29,4 +31,22 @@ p {
 li {
   font-size: 25;
   font-weight: bold;
+}
+#bigbox{
+  width: 860px;
+  height: 550px;
+  padding: 10px;
+}
+#square1{
+  width: 400px;
+  height: 500px;
+  margin-top: 20px;
+  padding:10px;
+}
+#square2{
+  width:400px;
+  height:500px;
+  margin-top: -500px;
+  margin-left: 430px;
+  padding:10px;
 }
