@@ -1,20 +1,56 @@
 header {
-  text-align: center;
+  text-align: left;
   text-transform: capitalize;
-  font-size: 50px;
-  color: Blue;
+  font-size: 70px;
+  color: Black;
+  font-family: Palatino;
+}
+.topbar {
+  width:100%;
+  height:240px;
+}
+.side-bar {
+  float:right;
+  width:30%;
+  height:340px;
+}
+.bigbox {
+  height: 1500px;
+  width: 100%;
+}
+.top {
+  width: 99%;
+  height: 400px;
+}
+.top-left {
+  width: 40%;
+  height: 390px;
+  float:left;
+}
+.middle {
+  width:99%;
+  height:400px;
+}
+.middle-left {
+  width:40%;
+  height: 390px;
+  float:left;
+}
+.bottom {
+  width:99%;
+  height:400px;
+}
+.bottom-left {
+  width:40%;
+  height:390px;
+  float:left;
+}
+.pics {
+  width:120px;
 }
 h3 {
   font-family: cursive;
   font-size: 55px;
-}
-.front {
-  margin-right: %;
-  background-color: salmon;
-  color: green;
-  text-align: right;
-  font-size: 35px;
-  width: 30%;
 }
 body {
   background-color: salmon;
@@ -22,10 +58,6 @@ body {
 p {
   color: black;
   font-size: 20px;
-}
-.nav {
-  text-align: left;
-  color: rgb(0, 0, 0)
 }
 li {
   font-size: 25;
