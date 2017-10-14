@@ -19,30 +19,60 @@ header {
   width: 100%;
 }
 .top {
+  border-style:solid;
+  border-color: black;
   width: 99%;
-  height: 400px;
+  height: 240px;
+}
+.top-right {
+  width: 40%;
+    float: right;
+    margin-right: 390px;
+    margin-top: 40px;
 }
 .top-left {
-  width: 40%;
-  height: 390px;
+  border-color: black;
+  padding: 10px;
+  width: 24%;
+  height: 200px;
   float:left;
 }
 .middle {
+  border-style: solid;
+  border-color:black;
   width:99%;
-  height:400px;
+  height:240px;
+}
+.middle-right {
+  width: 40%;
+    float: right;
+    margin-right: 390px;
+    margin-top: 40px;
 }
 .middle-left {
-  width:40%;
-  height: 390px;
+  border-color:black;
+  padding: 10px;
+  width:24%;
+  height: 200px;
   float:left;
 }
 .bottom {
+  border-style:solid;
+  border-color:black;
   width:99%;
-  height:400px;
+  height:240px;
+}
+.bottom-right{
+  width: 40%;
+    float: right;
+    margin-right: 390px;
+    margin-top: 40px;
 }
 .bottom-left {
-  width:40%;
-  height:390px;
+  border-color:black;
+  padding:10px;
+  width:24%;
+  height:200px;
   float:left;
 }
 .pics {
