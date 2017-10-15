@@ -5,6 +5,12 @@ header {
   color: Black;
   font-family: Palatino;
 }
+.side-bar{
+  border-style: dotted;
+  float:right;
+  margin-right: 30px;
+  padding: 15px;
+}
 .topbar {
   width:100%;
   height:240px;
@@ -21,13 +27,14 @@ header {
 .top {
   border-style:solid;
   border-color: black;
-  width: 99%;
+  width: 70%;
   height: 240px;
+  float:left;
 }
 .top-right {
   width: 40%;
     float: right;
-    margin-right: 390px;
+    margin-right: 300px;
     margin-top: 40px;
 }
 .top-left {
@@ -38,15 +45,17 @@ header {
   float:left;
 }
 .middle {
+  float:left;
+  margin-top: 10px;
   border-style: solid;
   border-color:black;
-  width:99%;
+  width:70%;
   height:240px;
 }
 .middle-right {
-  width: 40%;
+    width: 40%;
     float: right;
-    margin-right: 390px;
+    margin-right: 300px;
     margin-top: 40px;
 }
 .middle-left {
@@ -57,15 +66,17 @@ header {
   float:left;
 }
 .bottom {
+  float:left;
+  margin-top:10px;
   border-style:solid;
   border-color:black;
-  width:99%;
+  width:70%;
   height:240px;
 }
 .bottom-right{
   width: 40%;
     float: right;
-    margin-right: 390px;
+    margin-right: 300px;
     margin-top: 40px;
 }
 .bottom-left {
