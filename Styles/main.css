@@ -1,3 +1,6 @@
+.all {
+  margin-left: 20%
+}
 header {
   text-align: left;
   text-transform: capitalize;
@@ -21,21 +24,23 @@ header {
   height:340px;
 }
 .bigbox {
-  height: 1500px;
-  width: 100%;
+  height: 800px;
+  width: 80%;
 }
 .top {
   border-style:solid;
   border-color: black;
-  width: 70%;
+  width: 90%;
   height: 240px;
   float:left;
 }
 .top-right {
+  margin-bottom: 200px;
   width: 40%;
     float: right;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-top: 40px;
+    height:80px;
 }
 .top-left {
   border-color: black;
@@ -49,20 +54,20 @@ header {
   margin-top: 10px;
   border-style: solid;
   border-color:black;
-  width:70%;
+  width:90%;
   height:240px;
 }
 .middle-right {
     width: 40%;
     float: right;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-top: 40px;
 }
 .middle-left {
   border-color:black;
   padding: 10px;
   width:24%;
-  height: 200px;
+  height: 40px;
   float:left;
 }
 .bottom {
@@ -70,19 +75,16 @@ header {
   margin-top:10px;
   border-style:solid;
   border-color:black;
-  width:70%;
+  width:90%;
   height:240px;
 }
 .bottom-right{
-  width: 40%;
-    float: right;
-    margin-right: 300px;
-    margin-top: 40px;
+  margin-left: 100px;
 }
 .bottom-left {
   border-color:black;
   padding:10px;
-  width:24%;
+  width:45%;
   height:200px;
   float:left;
 }
