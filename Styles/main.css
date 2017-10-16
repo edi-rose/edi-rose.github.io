@@ -1,93 +1,40 @@
-.all {
-  margin-left: 20%
-}
+
 header {
-  text-align: left;
+  margin-top: 8%;
+  text-align: center;
   text-transform: capitalize;
   font-size: 70px;
   color: Black;
   font-family: Palatino;
 }
-.side-bar{
-  border-style: dotted;
-  float:right;
-  margin-right: 30px;
-  padding: 15px;
-}
-.topbar {
-  width:100%;
-  height:240px;
-}
-.side-bar {
-  float:right;
-  width:30%;
-  height:340px;
-}
+
 .bigbox {
   height: 800px;
   width: 80%;
+  margin-left: 10%;
+  margin: right:10%;
+  margin-top: 12%;
 }
-.top {
-  border-style:solid;
+.box {
+  border-style: solid;
   border-color: black;
   width: 90%;
-  height: 240px;
+  height: 27%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.left-bb{
+  border-right-style: dotted;
   float:left;
-}
-.top-right {
-  margin-bottom: 200px;
-  width: 40%;
-    float: right;
-    margin-right: 100px;
-    margin-top: 40px;
-    height:80px;
-}
-.top-left {
-  border-color: black;
-  padding: 10px;
-  width: 24%;
-  height: 200px;
-  float:left;
-}
-.middle {
-  float:left;
-  margin-top: 10px;
-  border-style: solid;
-  border-color:black;
-  width:90%;
-  height:240px;
-}
-.middle-right {
-    width: 40%;
-    float: right;
-    margin-right: 100px;
-    margin-top: 40px;
-}
-.middle-left {
-  border-color:black;
-  padding: 10px;
-  width:24%;
-  height: 40px;
-  float:left;
-}
-.bottom {
-  float:left;
-  margin-top:10px;
-  border-style:solid;
-  border-color:black;
-  width:90%;
-  height:240px;
-}
-.bottom-right{
-  margin-left: 100px;
-}
-.bottom-left {
-  border-color:black;
   padding:10px;
-  width:45%;
-  height:200px;
-  float:left;
+  width:24%;
 }
+.right-bb{
+  float:left;
+  width: 40%;
+  margin-left: 20px;
+}
+
 .pics {
   width:120px;
 }
