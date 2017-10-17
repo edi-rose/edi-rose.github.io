@@ -16,6 +16,7 @@ header {
   margin-top: 8%;
 }
 .box {
+  opacity: 90%;
   border-style: solid;
   border-color: black;
   width: 90%;
@@ -43,7 +44,8 @@ h3 {
   font-size: 55px;
 }
 body {
-background-image: url(https://s-media-cache-ak0.pinimg.com/originals/74/3a/26/743a26da2b89f72198339ff19e0fea20.png);
+  background-repeat: no-repeat;  background-attachment: fixed;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/74/3a/26/743a26da2b89f72198339ff19e0fea20.png);
 }
 p {
   color: black;
