@@ -13,13 +13,13 @@ header {
   width: 80%;
   margin-left: 10%;
   margin: right:10%;
-  margin-top: 12%;
+  margin-top: 8%;
 }
 .box {
   border-style: solid;
   border-color: black;
   width: 90%;
-  height: 90%;
+  height: 24%;
   margin-bottom: 10px;
   margin-left: 20px;
 }
@@ -43,7 +43,7 @@ h3 {
   font-size: 55px;
 }
 body {
-  background-color: rgba(156, 39, 176, 0.23);
+background-image: url(https://s-media-cache-ak0.pinimg.com/originals/74/3a/26/743a26da2b89f72198339ff19e0fea20.png);
 }
 p {
   color: black;
