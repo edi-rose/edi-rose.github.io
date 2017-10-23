@@ -1,1 +1,22 @@
+.pic {
+  height:35%;
+  width:35%;
+}
+body {
+  background-image:url(https://i.pinimg.com/originals/ec/9d/c0/ec9dc01048f28becfe43c03a2d61eef7.jpg);
+}
 
+#info-box {
+  float:right;
+}
+.class {
+  border-color: black;
+  border-style: solid;
+}
+
+header {
+  height: 15%;
+}
+.container {
+  height: 40%;
+}
