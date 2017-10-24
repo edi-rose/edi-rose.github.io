@@ -1,67 +1,18 @@
-<<<<<<< HEAD
+header {
+  margin-top: 2%
+}
 body {
-  background-image:url(https://i.pinimg.com/originals/ec/9d/c0/ec9dc01048f28becfe43c03a2d61eef7.jpg);
-=======
-
-#t1 {
-  text-align: center;
+  background-repeat: no-repeat;  background-attachment: fixed;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/74/3a/26/743a26da2b89f72198339ff19e0fea20.png);
 }
-header {
-  margin-top: 8%;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 70px;
-  color: Black;
-  font-family: Palatino;
->>>>>>> 1c599dd652afc45bed3bd475c3b2ddab4b7c7f1f
-}
-
-#info-box {
-  float:right;
-}
-.class {
-  border-color: black;
-  border-style: solid;
-}
-<<<<<<< HEAD
-
-.row {
-  height: 30%;
-}
-#blog-title {
-  text-align: center;
-=======
-.title {
-  text-align: center;
-}
-.pics {
-  width:120px;
->>>>>>> 1c599dd652afc45bed3bd475c3b2ddab4b7c7f1f
-}
-h1 {
-  text-align: center;
-}
-.blog-title {
-  color: pink;
-  text-align: center;
-}
-header {
-  margin-top: 2%;
-}
-.question-left {
-  float:left;
-  width: 40%
-}
-.quesiton-right {
-  float: right;
-  width: 40%;
-
-}
-#Q1 {
-  float: left;
-  width: 40%;
-}
-#Q2 {
-  float: right;
-  width: 40%;
+.pic {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 2px;
+  margin: 7px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  vertical-align: top;
 }
