@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <header>HTML, CSS and the DOM</header>
-  <p><a href="https://edi-rose.github.io/">Home</a></p>
-  <link href="Styles/main.css" type="text/css" rel="stylesheet"/>
-</head>
-<body>
-    <div id="bigbox">
-      <h1>I tried messing around a little haha</h1>
-      <div id="square1">
-        <h2>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h2>
-        <p>The house analogy, HTML is the building frame and foundations, css is everthing you put inside the house, and I guess DOM is the way you present your plans to your builder/interior desginer.</p>
+  <head>
+    <title>HTML BLOG TEMPLATE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="Styles/main.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+      <div class="row">
+        <div class="four columns">
+          <p href="../index.html">HOME</p>
+        </div>
+
+        <div class="four columns">
+          <p href="c1-time-and-habits.html">WORK ETHIC AND HABITS</p>
+          <p href="c2-emotional-intelligence.html">EMOTIONAL INTELLIGENCE</p>
+        </div>
+
+        <div class="four columns">
+          <p href="t2-html-css-dom-p1.html">PART 1 OF TECH</p>
+          <p href="t2-html-css-dom-p2.html">PART 2</p>
+        </div>
       </div>
-      <div id="square2">
-        <h2>What is boxifying a desgin?</h2>
-        <p>To break down the way you want your website to look into boxes</p>
-        <div id="square3">
-        <h2>What is the box model?</h2>
-        <p>The box model is the format that divs are presented in the browser. They start with all the content which is inside a box and then contain all the padding and margins which control the area the div takes up.</p>
+      <hr>
+    </header>
+
+ <!--TITLE OF BLOG-->
+      <div class="row" class="title">
+        <div class="twelve columns">
+          <h1 class="blog-title">HTML, CSS and the DOM Part 1</h1>
+        </div>
       </div>
+
+<!--Question 1 and 2-->
+       <div class="row">
+         <div class="six columns">
+           <h3>Can you think of an analogy to describe HTML, CSS and the DOM?</h3>
+           <p>The house analogy, HTML is the building frame and foundations, css is everthing you put inside the house, and I guess DOM is the way you present your plans to your builder/interior desginer.</p>
+         </div>
+         <div class="six columns">
+          <h3>What is it to boxify a design?</h3>
+           <p>To break down the way you want your website to look into different smaller boxes, which represent the different divs and elements you'll have to create and organize.</p>
+         </div>
+         </div>
+
+<!--Question 3 and 4 -->
+        <div class="row">
+          <div class="six columns">
+            <h3>What is the box model?</h3>
+            <p>The box model is the format that divs are presented in the browser. They start with all the content which is inside a box and then contain all the padding and margins which control the area the div takes up.</p>
+          </div>
+          <div class="six columns">
+        </div>
       </div>
+  </main>
     </div>
-</body>
+  </body>
 </html>
