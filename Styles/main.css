@@ -10,10 +10,6 @@ body {
   border-style: solid;
 }
 
-header {
-  height: 15%;
-}
-
 .row {
   height: 30%;
 }
@@ -26,4 +22,24 @@ h1 {
 .blog-title {
   color: pink;
   text-align: center;
+}
+header {
+  margin-top: 2%;
+}
+.question-left {
+  float:left;
+  width: 40%
+}
+.quesiton-right {
+  float: right;
+  width: 40%;
+
+}
+#Q1 {
+  float: left;
+  width: 40%;
+}
+#Q2 {
+  float: right;
+  width: 40%;
 }
