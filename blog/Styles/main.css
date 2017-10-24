@@ -1,61 +1,18 @@
 header {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 50px;
-  color: Blue;
-}
-h3 {
-  font-family: cursive;
-  font-size: 55px;
-}
-.front {
-  margin-right: %;
-  background-color: salmon;
-  color: green;
-  text-align: right;
-  font-size: 35px;
-  width: 30%;
+  margin-top: 2%
 }
 body {
-  background-color: salmon;
+  background-repeat: no-repeat;  background-attachment: fixed;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/74/3a/26/743a26da2b89f72198339ff19e0fea20.png);
 }
-p {
-  color: black;
-  font-size: 20px;
-}
-.nav {
-  text-align: left;
-  color: rgb(0, 0, 0)
-}
-li {
-  font-size: 25;
-  font-weight: bold;
-}
-#bigbox{
-  width: 950px;
-  height: 550px;
-  padding: 10px;
-}
-#square1{
-  float: left;
-  background-color: blue;
-  width: 300px;
-  height: 500px;
-  margin-top: 20px;
-  padding:10px;
-}
-#square2{
-  float:left;
-  background-color: red;
-  width:300px;
-  height:500px;
-  margin-top: -520px;
-  margin-left: 320px;
-  padding:10px;
-}
-#square3{
-  float:right;
-  background-color: yellow;
-  width:300px;
-  height: 240px;
+.pic {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 2px;
+  margin: 7px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  vertical-align: top;
 }
