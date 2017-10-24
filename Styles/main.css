@@ -35,7 +35,9 @@ header {
   width: 40%;
   margin-left: 20px;
 }
-
+.title {
+  text-align: center;
+}
 .pics {
   width:120px;
 }
