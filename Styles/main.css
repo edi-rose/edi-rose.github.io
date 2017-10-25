@@ -16,12 +16,41 @@ body {
   background-color: white;
   vertical-align: top;
 }
+
+
 .title {
   margin-bottom:4%;
 }
-.left-box-index {
-  opacity: 50%;
+
+.Top-bar {
+  height: 70%;
 }
-.top-set {
-  height: 70;
+.PP {
+  height: 25%;
+}
+.right-box-index {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 7px;
+  margin: 20px;
+  box-sizing: border-box;
+
+  width: 25%;
+  vertical-align: top;
+  float: right;
+}
+.blocks {
+  border-style: solid;
+  border-color: white;
+}
+.left-box-index {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 7px;
+  margin: 20px;
+  box-sizing: border-box;
+  
+  width: 50%;
+  vertical-align: top;
+  margin-left: 40px;
 }
